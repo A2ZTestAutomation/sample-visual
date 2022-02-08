@@ -6,6 +6,7 @@
   "scripts": {
     "cy:open":"cypress open",
     "cy:run" : "cypress run",
+    "cy:dashboard":"cypress run --record --key 88cf8d85-abba-4319-9059-81e5ffb0e432",
     "cy:udpateSnap" : "cypress run --env updateSnapshots=true",
     "cy:image":"cypress run --env failOnSnapshotDiff=false"
   },
