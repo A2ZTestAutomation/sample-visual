@@ -19,6 +19,7 @@ describe('Types of Locators', () => {
     it.skip('iphone-4 landscape Resolution', () => {
         cy.viewport('iphone-4', 'landscape')
         cy.visit('https://www.example.com/')
-        cy.wait(200)
+        expect(true).to.equal(false)
+        
     })
 })
