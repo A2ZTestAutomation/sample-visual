@@ -16,7 +16,7 @@ describe('Types of Locators', () => {
         cy.visit('https://www.example.com/')
         cy.wait(200)
     })
-    it.skip('iphone-4 landscape Resolution', () => {
+    it('iphone-4 landscape Resolution', () => {
         // cy.viewport('iphone-4', 'landscape')
         cy.visit('https://www.example.com/')
         cy.url().should('include', 'samples')
